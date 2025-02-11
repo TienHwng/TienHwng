@@ -3,12 +3,13 @@
 <!-- # Hello World!, I'm Tobi, a German Web Developer 👋🏼:
 🛜 currently working on my own [webpage](https://www.tobiasmeyhoefer.de)<br>👨🏼‍🎓 studying media based computer science at Berliner Hochschule für Technik<br>👨🏼‍💻 working as a web developer since 2022 <br>🎬 just started out with my youtube channel <i>tobi tackles tech</i> -->
 
+<img src="bk_name_en.png" alt="GitHub Banner" width="100%" />
 
 # Hello World! I'm Tien Hung, a CE student 👋🏼  
 
 <!-- ![UniLogo](https://upload.wikimedia.org/wikipedia/commons/f/f0/HCMCUT.svg) -->
 
-🎓 Currently, I am a Computer Engineering student at Ho Chi Minh City Univerisity of Technology.  
+🎓 Currently, I am a Computer Engineering student at [Ho Chi Minh City Univerisity of Technology](https://hcmut.edu.vn/).  
 🛜 Exploring and learning about technology.  
 👨‍💻 Interested in web development, programming, and artificial intelligence.  
 📚 Always looking for opportunities to improve my skills and expand my knowledge.  
