@@ -2,6 +2,8 @@
 
 <img src="bk_name_en.png" alt="GitHub Banner" width="90%" />
 
+###
+
 # Hello World! I'm Tien Hung, a CE student 👋🏼  
 
 🎓 Currently, I am a Computer Engineering student at [Ho Chi Minh City Univerisity of Technology](https://hcmut.edu.vn/).  
@@ -43,11 +45,11 @@
 
 # ⚡️ Where to find me
 <p>
-  <a target="_blank" href="https://github.com/thmsgbrt" style="display: inline-block;"><img alt="Git Hub" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a>
+  <a target="_blank" href="https://github.com/TienHwng" style="display: inline-block;"><img alt="Git Hub" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a>
   <a target="_blank" href="https://www.linkedin.com/in/tienhung123linkedin" style="display: inline-block;"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-logo?style=for-the-badge&logo=linkedin&logoColor=white&color=%230a77b6" /></a>
   <a target="_blank" href="https://stackoverflow.com/users/stackoverflowID" style="display: inline-block;"><img alt="Stack Overflow" src="https://img.shields.io/badge/stackoverflow-logo?style=for-the-badge&logo=stackoverflow&logoColor=white&color=%23cc0000" /></a>
   <a target="_blank" href="https://www.youtube.com/@HungHere" style="display: inline-block;"><img alt="Youtube" src="https://img.shields.io/badge/youtube-logo?style=for-the-badge&logo=youtube&logoColor=white&color=%23cc0000" /></a>
-  <a target="_blank" href="https://twitter.com/Guibz16" style="display: inline-block;"><img alt="Twitter" src="https://img.shields.io/badge/twitter-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white" /></a>
+  <a target="_blank" href="https://twitter.com/tieen_hwngg" style="display: inline-block;"><img alt="Twitter" src="https://img.shields.io/badge/twitter-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white" /></a>
   <a target="_blank" href="https://www.instagram.com/tieen.hwngg" style="display: inline-block;"><img alt="Instagram" src="https://img.shields.io/badge/instagram-logo?style=for-the-badge&logo=instagram&logoColor=white&color=%23F35369" /></a>
   <a target="_blank" href="https://www.facebook.com/tienhung251" style="display: inline-block;"><img alt="Facebook" src="https://img.shields.io/badge/facebook-logo?style=for-the-badge&logo=facebook&logoColor=white&color=%230866ff" /></a>
 </p>
