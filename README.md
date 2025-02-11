@@ -19,11 +19,11 @@ Here are some ideas to get you started:
 
 ###
 
-<div align="center">
+<!-- <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=TienHwng&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false" height="150" alt="stats graph"  />
   <img align="center" src="https://github-readme-stats.vercel.app/api?username=TienHwng&show_icons=true&locale=en" alt="TienHwng" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=TienHwng&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="150" alt="languages graph"  />
-</div>
+</div> -->
 
 <a href="https://github.com/anuraghazra/github-readme-stats">
   <img height=200 align="center" src="https://github-readme-stats.vercel.app/api?username=TienHwng" />
