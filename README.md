@@ -26,32 +26,100 @@
 
 ###
 
-# 📊 Here is my GitHub stats:
+# 📊 Here are my GitHub stats:
 
-<a href="https://github.com/anuraghazra/github-readme-stats">
-  <img height=150 align="center" src="https://github-readme-stats.vercel.app/api?username=TienHwng" />
-</a>
-<a href="https://github.com/anuraghazra/convoychat">
-  <img height=150 align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=TienHwng&layout=compact&langs_count=8&card_width=220" />
-</a>
+<p align="center">
+  <a href="https://github.com/TienHwng">
+    <picture>
+      <source
+        media="(prefers-color-scheme: dark)"
+        srcset="https://github-stats-extended.vercel.app/api?username=TienHwng&amp;rank_icon=github&amp;custom_title=My%20Github%20Stats&amp;show_icons=true&amp;include_all_commits=true&amp;theme=vue-dark"
+      />
+      <img
+        src="https://github-stats-extended.vercel.app/api?username=TienHwng&amp;rank_icon=github&amp;custom_title=My%20Github%20Stats&amp;show_icons=true&amp;include_all_commits=true&amp;theme=vue"
+        width="59%"
+        alt="GitHub Stats"
+      />
+    </picture>
+  </a>
+  <a href="https://github.com/TienHwng">
+    <picture>
+      <source
+        media="(prefers-color-scheme: dark)"
+        srcset="https://github-stats-extended.vercel.app/api/top-langs?username=TienHwng&amp;layout=donut&amp;langs_count=5&amp;theme=vue-dark"
+      />
+      <img
+        src="https://github-stats-extended.vercel.app/api/top-langs?username=TienHwng&amp;layout=donut&amp;langs_count=5&amp;theme=vue"
+        width="40%"
+        alt="Most Used Languages"
+      />
+    </picture>
+  </a>
+</p>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/TienHwng/TienHwng/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/TienHwng/TienHwng/output/github-snake.svg" />
-  <img alt="github-snake" src="https://raw.githubusercontent.com/TienHwng/TienHwng/output/github-snake.svg" />
-</picture>
+<p align="center">
+  <picture>
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="https://raw.githubusercontent.com/TienHwng/TienHwng/output/github-snake-dark.svg"
+    />
+    <source
+      media="(prefers-color-scheme: light)"
+      srcset="https://raw.githubusercontent.com/TienHwng/TienHwng/output/github-snake.svg"
+    />
+    <img
+      src="https://raw.githubusercontent.com/TienHwng/TienHwng/output/github-snake.svg"
+      width="100%"
+      alt="GitHub contribution snake animation"
+    />
+  </picture>
+</p>
 
-###
+# ⚡ Where to find me
 
-# ⚡️ Where to find me
-<p>
-  <a target="_blank" href="https://github.com/TienHwng" style="display: inline-block;"><img alt="Git Hub" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a>
-  <a target="_blank" href="https://www.linkedin.com/in/tienhung" style="display: inline-block;"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-logo?style=for-the-badge&logo=linkedin&logoColor=white&color=%230a77b6" /></a>
-  <a target="_blank" href="https://stackoverflow.com/users/29606124" style="display: inline-block;"><img alt="Stack Overflow" src="https://img.shields.io/badge/stackoverflow-logo?style=for-the-badge&logo=stackoverflow&logoColor=white&color=%23cc0000" /></a>
-  <a target="_blank" href="https://www.youtube.com/@HungHere" style="display: inline-block;"><img alt="Youtube" src="https://img.shields.io/badge/youtube-logo?style=for-the-badge&logo=youtube&logoColor=white&color=%23cc0000" /></a>
-  <a target="_blank" href="https://twitter.com/tieen_hwngg" style="display: inline-block;"><img alt="Twitter" src="https://img.shields.io/badge/twitter-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white" /></a>
-  <a target="_blank" href="https://www.instagram.com/tieen.hwngg" style="display: inline-block;"><img alt="Instagram" src="https://img.shields.io/badge/instagram-logo?style=for-the-badge&logo=instagram&logoColor=white&color=%23F35369" /></a>
-  <a target="_blank" href="https://www.facebook.com/tienhung251" style="display: inline-block;"><img alt="Facebook" src="https://img.shields.io/badge/facebook-logo?style=for-the-badge&logo=facebook&logoColor=white&color=%230866ff" /></a>
+<p align="center">
+  <a href="https://github.com/TienHwng">
+    <img
+      src="https://img.shields.io/badge/GitHub-12100E?style=for-the-badge&logo=github&logoColor=white"
+      alt="GitHub"
+    />
+  </a>
+  <a href="https://www.linkedin.com/in/tienhung">
+    <img
+      src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"
+      alt="LinkedIn"
+    />
+  </a>
+  <a href="https://stackoverflow.com/users/29606124">
+    <img
+      src="https://img.shields.io/badge/Stack%20Overflow-F58025?style=for-the-badge&logo=stackoverflow&logoColor=white"
+      alt="Stack Overflow"
+    />
+  </a>
+  <a href="https://www.youtube.com/@HungHere">
+    <img
+      src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white"
+      alt="YouTube"
+    />
+  </a>
+  <a href="https://twitter.com/tieen_hwngg">
+    <img
+      src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white"
+      alt="Twitter"
+    />
+  </a>
+  <a href="https://www.instagram.com/tieen.hwngg">
+    <img
+      src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"
+      alt="Instagram"
+    />
+  </a>
+  <a href="https://www.facebook.com/tienhung251">
+    <img
+      src="https://img.shields.io/badge/Facebook-0866FF?style=for-the-badge&logo=facebook&logoColor=white"
+      alt="Facebook"
+    />
+  </a>
 </p>
 
 ###
