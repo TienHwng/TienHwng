@@ -1,0 +1,44 @@
+name: Generate 3D Contribution Graph
+
+on:
+  schedule:
+    - cron: "30 5 * * *" # 05:30 UTC, 13:30 Singapore time
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/skyline-3d.yml"
+      - "conf/github-profile-3d-contrib.json"
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    concurrency:
+      group: github-profile-metrics
+      cancel-in-progress: false
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate light and dark rainbow SVGs
+        uses: yoshi389111/github-profile-3d-contrib@0.7.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+          SETTING_JSON: conf/github-profile-3d-contrib.json
+
+      - name: Publish graphs to metrics/3d-contrib
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: metrics
+          publish_dir: ./profile-3d-contrib
+          keep_files: true
+          destination_dir: 3d-contrib
+          commit_message: "Update 3D contribution graph [skip ci]"

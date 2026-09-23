@@ -10,14 +10,25 @@ on:
   push:
     branches:
       - main
+    paths:
+      - ".github/workflows/snake.yml"
+
+permissions:
+  contents: write
+
 jobs:
   generate:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
+    concurrency:
+      group: github-profile-metrics
+      cancel-in-progress: false
+
     steps:
       # Step 1: Checkout the repository
       - name: Checkout Repository
         uses: actions/checkout@v3
+
       # Step 2: Generate the snake animations
       - name: Generate GitHub Contributions Snake Animations
         uses: Platane/snk@v3
@@ -26,17 +37,20 @@ jobs:
           github_user_name: ${{ github.repository_owner }}
           # Define the output files and their configurations
           outputs: |
-            dist/github-snake.svg
-            dist/github-snake-dark.svg?palette=github-dark
-            dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
+            profile-snake-animation/github-snake.svg?color_snake=#127487&color_dots=#EAFBFB,#BDF3F2,#7EE9E5,#3ADBD7,#16D6D2
+            profile-snake-animation/github-snake-dark.svg?palette=github-dark&color_snake=#4FF6F0&color_dots=#0D1117,#10313D,#127487,#16B8C0,#4FF6F0
+            profile-snake-animation/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      # Step 3: Deploy the generated files to the 'output' branch
-      - name: Deploy to Output Branch
+
+      # Step 3: Deploy the generated files to the 'metrics' branch
+      - name: Publish graphs to metrics/snake
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist
-          publish_branch: output
+          publish_branch: metrics
+          publish_dir: ./profile-snake-animation
+          keep_files: true
+          destination_dir: snake
           # Optionally, you can set a custom commit message
           commit_message: "Update snake animation [skip ci]"
